@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF308A672C9200100087D743 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF308A662C9200100087D743 /* main.cpp */; };
 		DF308A712C92059B0087D743 /* ProductArrayPuzzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF308A702C92059B0087D743 /* ProductArrayPuzzle.cpp */; };
+		DF3AB6772C9356AE0087FDF0 /* RearrangingArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB6752C9356AE0087FDF0 /* RearrangingArray.cpp */; };
+		DF3AB67E2C935D720087FDF0 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB67C2C935D720087FDF0 /* MergeSort.cpp */; };
+		DF3AB6802C93669B0087FDF0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB67F2C93669B0087FDF0 /* main.cpp */; };
+		DF3AB6852C93745B0087FDF0 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB6832C93745B0087FDF0 /* Stack.cpp */; };
+		DF3AB6892C9383030087FDF0 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB6872C9383030087FDF0 /* Queue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DF308A632C9200100087D743 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF308A662C9200100087D743 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF308A632C9200100087D743 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF308A702C92059B0087D743 /* ProductArrayPuzzle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProductArrayPuzzle.cpp; sourceTree = "<group>"; };
+		DF308A752C9210890087D743 /* ProductArrayPuzzle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ProductArrayPuzzle.hpp; sourceTree = "<group>"; };
+		DF3AB6752C9356AE0087FDF0 /* RearrangingArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RearrangingArray.cpp; sourceTree = "<group>"; };
+		DF3AB6762C9356AE0087FDF0 /* RearrangingArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RearrangingArray.hpp; sourceTree = "<group>"; };
+		DF3AB67C2C935D720087FDF0 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		DF3AB67D2C935D720087FDF0 /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
+		DF3AB67F2C93669B0087FDF0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF3AB6832C93745B0087FDF0 /* Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
+		DF3AB6842C93745B0087FDF0 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		DF3AB6872C9383030087FDF0 /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		DF3AB6882C9383030087FDF0 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +56,9 @@
 		DF308A5A2C9200100087D743 = {
 			isa = PBXGroup;
 			children = (
-				DF308A652C9200100087D743 /* Algorithm */,
+				DF3AB67F2C93669B0087FDF0 /* main.cpp */,
+				DF3AB6782C935CFD0087FDF0 /* Learn */,
+				DF308A652C9200100087D743 /* Practice */,
 				DF308A642C9200100087D743 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,26 +66,97 @@
 		DF308A642C9200100087D743 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF308A632C9200100087D743 /* Algorithm */,
+				DF308A632C9200100087D743 /* Algorithms */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF308A652C9200100087D743 /* Algorithm */ = {
+		DF308A652C9200100087D743 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
-				DF308A662C9200100087D743 /* main.cpp */,
+				DF3AB6742C9356700087FDF0 /* RearrangingArray  */,
+				DF308A762C9344840087D743 /* ProductArrayPuzzle */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		DF308A762C9344840087D743 /* ProductArrayPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				DF308A752C9210890087D743 /* ProductArrayPuzzle.hpp */,
 				DF308A702C92059B0087D743 /* ProductArrayPuzzle.cpp */,
 			);
-			path = Algorithm;
+			path = ProductArrayPuzzle;
+			sourceTree = "<group>";
+		};
+		DF3AB6742C9356700087FDF0 /* RearrangingArray  */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AB6762C9356AE0087FDF0 /* RearrangingArray.hpp */,
+				DF3AB6752C9356AE0087FDF0 /* RearrangingArray.cpp */,
+			);
+			path = "RearrangingArray ";
+			sourceTree = "<group>";
+		};
+		DF3AB6782C935CFD0087FDF0 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AB6812C9373BB0087FDF0 /* DataStructures */,
+				DF3AB6792C935D0A0087FDF0 /* Sorts */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		DF3AB6792C935D0A0087FDF0 /* Sorts */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AB67B2C935D510087FDF0 /* Merge Sort */,
+			);
+			path = Sorts;
+			sourceTree = "<group>";
+		};
+		DF3AB67B2C935D510087FDF0 /* Merge Sort */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AB67C2C935D720087FDF0 /* MergeSort.cpp */,
+				DF3AB67D2C935D720087FDF0 /* MergeSort.hpp */,
+			);
+			path = "Merge Sort";
+			sourceTree = "<group>";
+		};
+		DF3AB6812C9373BB0087FDF0 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AB6822C9374050087FDF0 /* Stack */,
+				DF3AB6862C9382E20087FDF0 /* Queue */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		DF3AB6822C9374050087FDF0 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AB6832C93745B0087FDF0 /* Stack.cpp */,
+				DF3AB6842C93745B0087FDF0 /* Stack.hpp */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		DF3AB6862C9382E20087FDF0 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AB6872C9383030087FDF0 /* Queue.cpp */,
+				DF3AB6882C9383030087FDF0 /* Queue.hpp */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF308A622C9200100087D743 /* Algorithm */ = {
+		DF308A622C9200100087D743 /* Algorithms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF308A6A2C9200100087D743 /* Build configuration list for PBXNativeTarget "Algorithm" */;
+			buildConfigurationList = DF308A6A2C9200100087D743 /* Build configuration list for PBXNativeTarget "Algorithms" */;
 			buildPhases = (
 				DF308A5F2C9200100087D743 /* Sources */,
 				DF308A602C9200100087D743 /* Frameworks */,
@@ -80,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = Algorithm;
+			name = Algorithms;
 			productName = Algorithm;
-			productReference = DF308A632C9200100087D743 /* Algorithm */;
+			productReference = DF308A632C9200100087D743 /* Algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DF308A5E2C9200100087D743 /* Build configuration list for PBXProject "Algorithm" */;
+			buildConfigurationList = DF308A5E2C9200100087D743 /* Build configuration list for PBXProject "Algorithms" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF308A622C9200100087D743 /* Algorithm */,
+				DF308A622C9200100087D743 /* Algorithms */,
 			);
 		};
 /* End PBXProject section */
@@ -122,8 +208,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF308A672C9200100087D743 /* main.cpp in Sources */,
+				DF3AB6852C93745B0087FDF0 /* Stack.cpp in Sources */,
 				DF308A712C92059B0087D743 /* ProductArrayPuzzle.cpp in Sources */,
+				DF3AB67E2C935D720087FDF0 /* MergeSort.cpp in Sources */,
+				DF3AB6892C9383030087FDF0 /* Queue.cpp in Sources */,
+				DF3AB6802C93669B0087FDF0 /* main.cpp in Sources */,
+				DF3AB6772C9356AE0087FDF0 /* RearrangingArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF308A5E2C9200100087D743 /* Build configuration list for PBXProject "Algorithm" */ = {
+		DF308A5E2C9200100087D743 /* Build configuration list for PBXProject "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF308A682C9200100087D743 /* Debug */,
@@ -273,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF308A6A2C9200100087D743 /* Build configuration list for PBXNativeTarget "Algorithm" */ = {
+		DF308A6A2C9200100087D743 /* Build configuration list for PBXNativeTarget "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF308A6B2C9200100087D743 /* Debug */,

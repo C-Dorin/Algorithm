@@ -11,8 +11,6 @@
 #include <stdio.h>
 #include <vector>
 
-using namespace std;
-
-vector<long long int> productExceptSelf();
+std::vector<long long int> productExceptSelf();
 
 #endif /* ProductArrayPuzzle_hpp */
