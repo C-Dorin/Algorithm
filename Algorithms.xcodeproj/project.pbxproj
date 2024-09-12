@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF308A672C9200100087D743 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF308A662C9200100087D743 /* main.cpp */; };
+		DF308A712C92059B0087D743 /* ProductArrayPuzzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF308A702C92059B0087D743 /* ProductArrayPuzzle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		DF308A632C9200100087D743 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF308A662C9200100087D743 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF308A702C92059B0087D743 /* ProductArrayPuzzle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProductArrayPuzzle.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				DF308A662C9200100087D743 /* main.cpp */,
+				DF308A702C92059B0087D743 /* ProductArrayPuzzle.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF308A672C9200100087D743 /* main.cpp in Sources */,
+				DF308A712C92059B0087D743 /* ProductArrayPuzzle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
