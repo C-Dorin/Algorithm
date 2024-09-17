@@ -8,8 +8,7 @@
 #ifndef Stack_hpp
 #define Stack_hpp
 
-#include <stdio.h>
-
 void stack_learn();
+void displayStack();
 
 #endif /* Stack_hpp */

@@ -8,8 +8,7 @@
 #ifndef Queue_hpp
 #define Queue_hpp
 
-#include <stdio.h>
-
 void queue_learn();
+void displayQueue();
 
 #endif /* Queue_hpp */

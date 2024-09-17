@@ -40,8 +40,13 @@ void queue_learn() {
 	// Passes the last element of the queue to a variable
 	string lastGame = arr.back();	// "Shadow Fight"
 
+	// Display and clear the stack
 	while (!arr.empty()) {
 		cout << arr.front() << endl;
 		arr.pop();
 	}
+}
+
+void displayQueue(){
+	queue_learn();
 }

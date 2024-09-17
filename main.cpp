@@ -6,12 +6,11 @@
 //
 
 #include <iostream>
-#include "Queue.hpp"
+#include "Learn.hpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-	queue_learn();
-
+	
 	return 0;
 }

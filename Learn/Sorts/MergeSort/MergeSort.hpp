@@ -8,11 +8,10 @@
 #ifndef MergeSort_hpp
 #define MergeSort_hpp
 
-#include <stdio.h>
 #include <vector>
 
 void merge(std::vector<int>& arr, unsigned long left, unsigned long mid, unsigned long right);
-
 void mergeSort(std::vector<int>& arr, unsigned long left, unsigned long right);
+void displayMergeSort();
 
 #endif /* MergeSort_hpp */

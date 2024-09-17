@@ -38,8 +38,13 @@ void stack_learn() {
 	// Passes the top element of the stack to a variable
 	string game = arr.top();
 
+	// Display and clear the stack
 	while (!arr.empty()) {
 		cout << arr.top() << endl;
 		arr.pop();
 	}
+}
+
+void displayStack(){
+	stack_learn();
 }
