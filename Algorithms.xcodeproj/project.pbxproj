@@ -178,8 +178,6 @@
 			children = (
 				DFCACBE52C94958E00891351 /* Singly */,
 				DFCACBE62C9495B400891351 /* Doubly */,
-				DFCACBEA2C94C23D00891351 /* CircularSingly */,
-				DFCACBEB2C94C29200891351 /* CircularDoubly */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -200,20 +198,6 @@
 				DFCACBE82C94B2DD00891351 /* DoublyLinkedList.hpp */,
 			);
 			path = Doubly;
-			sourceTree = "<group>";
-		};
-		DFCACBEA2C94C23D00891351 /* CircularSingly */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CircularSingly;
-			sourceTree = "<group>";
-		};
-		DFCACBEB2C94C29200891351 /* CircularDoubly */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CircularDoubly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +231,7 @@
 				TargetAttributes = {
 					DF308A622C9200100087D743 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -406,16 +391,21 @@
 		DF308A6B2C9200100087D743 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		DF308A6C2C9200100087D743 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};

@@ -40,7 +40,7 @@ struct Node {
 };
 
 // Function to insert a node at the end of the list
-void insertNode(Node*& head, int value){
+void insertNodeSinglyLinkedList(Node*& head, int value){
 	// Create a new node with the provided value
 	Node* newNode = new Node{value, nullptr};
 
@@ -61,40 +61,40 @@ void insertNode(Node*& head, int value){
 }
 
 // Function to insert a node at a specific position
-void insertNode(Node*& head, int position, int value){
+void insertNodeSinglyLinkedList(Node*& head, int position, int value){
 	// Create a new node with the provided value
 	Node* newNode = new Node{value, nullptr};
 
 	// If the list is empty or inserting at the head
-	if (head == nullptr || position == 1) {
+	if (position == 1) {
 		newNode->next = head;
 		head = newNode;
 		return;
 	}
 
 	// Traverse to the node before the desired position
-	Node* current = head;
-	for (int i = 1; i < position - 1 && current != nullptr; i++) {
-		current = current->next;
+	Node* temp = head;
+	for (int i = 1; i < position - 1 && temp != nullptr; i++) {
+		temp = temp->next;
 	}
 
 	// Check if the position is out of bounds
-	if (current == nullptr) {
-		cout << "Position out of bounds!" << endl;
+	if (temp == nullptr) {
+		cerr << "Position out of bounds!" << endl;
 		delete newNode;
 		return;
 	}
 
 	// Insert the new node at the desired position
-	newNode->next = current->next;
-	current->next = newNode;
+	newNode->next = temp->next;
+	temp->next = newNode;
 }
 
 // Function to delete a node by value
-void deleteNode(Node*& head, int value){
+void deleteNodeSinglyLinkedList(Node*& head, int value){
 	// If the list is empty
 	if (head == nullptr) {
-		cout << "List is empty, nothing to delete." << endl;
+		cerr << "List is empty, nothing to delete." << endl;
 		return;
 	}
 
@@ -116,7 +116,7 @@ void deleteNode(Node*& head, int value){
 
 	// If the node was not found
 	if (temp == nullptr) {
-		cout << "Node with value " << value << " not found." << endl;
+		cerr << "Node with value " << value << " not found." << endl;
 		return;
 	}
 
@@ -126,10 +126,10 @@ void deleteNode(Node*& head, int value){
 }
 
 // Function to display the entire linked list
-void displayNode(Node* head) {
+void displayNodeSinglyLinkedList(Node* head) {
 	// If the list is empty
 	if (head == nullptr) {
-		cout << "The list is empty." << endl;
+		cerr << "The list is empty." << endl;
 		return;
 	}
 
@@ -147,18 +147,18 @@ void displaySinglyLinkedList(){
 	Node* head = nullptr;
 
 	// Insert elements into the list
-	insertNode(head, 10);
-	insertNode(head, 20);
-	insertNode(head, 30);
-	insertNode(head, 40);
-	insertNode(head, 2, 25);
+	insertNodeSinglyLinkedList(head, 10);
+	insertNodeSinglyLinkedList(head, 20);
+	insertNodeSinglyLinkedList(head, 30);
+	insertNodeSinglyLinkedList(head, 40);
+	insertNodeSinglyLinkedList(head, 2, 25);
 
 	// Display the linked list
 	cout << "Linked List: ";
-	displayNode(head);
+	displayNodeSinglyLinkedList(head);
 
 	// Delete a node
-	deleteNode(head, 20);
+	deleteNodeSinglyLinkedList(head, 20);
 	cout << "After deleting 20: ";
-	displayNode(head);
+	displayNodeSinglyLinkedList(head);
 }

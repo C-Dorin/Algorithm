@@ -10,10 +10,10 @@
 
 struct Node;
 
-void insertNode(Node*& head, int value);
-void insertNode(Node*& head, int position, int value);
-void deleteNode(Node*& head, int value);
-void displayNode(Node* head);
-void displaySinglyLinkedList();
+void insertNodeSinglyLinkedList(Node*& head, int value);
+void insertNodeSinglyLinkedList(Node*& head, int position, int value);
+void deleteNodeSinglyLinkedList(Node*& head, int value);
+void displayNodeSinglyLinkedList(Node* head);
+extern void displaySinglyLinkedList();
 
 #endif /* SinglyLinkedList_hpp */
