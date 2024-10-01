@@ -15,6 +15,9 @@
 #include "DoublyLinkedList.hpp"
 #include "DynamicArray.hpp"
 
+// Searches
+#include "LinearSearch.hpp"
+
 // Sorts
 #include "MergeSort.hpp"
 

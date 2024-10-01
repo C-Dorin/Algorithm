@@ -17,6 +17,7 @@
 		DF9428E02C99A96F00A017B6 /* romanToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF9428DE2C99A96F00A017B6 /* romanToInteger.cpp */; };
 		DFCACBE32C94887D00891351 /* SinglyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFCACBE12C94887D00891351 /* SinglyLinkedList.cpp */; };
 		DFCACBE92C94B2DD00891351 /* DoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFCACBE72C94B2DD00891351 /* DoublyLinkedList.cpp */; };
+		DFEAC93E2CAC2CE5002B8E88 /* LinearSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEAC93D2CAC2CE5002B8E88 /* LinearSearch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,8 @@
 		DFCACBE42C948ED600891351 /* Learn.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Learn.hpp; sourceTree = "<group>"; };
 		DFCACBE72C94B2DD00891351 /* DoublyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoublyLinkedList.cpp; sourceTree = "<group>"; };
 		DFCACBE82C94B2DD00891351 /* DoublyLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoublyLinkedList.hpp; sourceTree = "<group>"; };
+		DFEAC93C2CAC2CE5002B8E88 /* LinearSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearSearch.hpp; sourceTree = "<group>"; };
+		DFEAC93D2CAC2CE5002B8E88 /* LinearSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearSearch.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,7 @@
 			children = (
 				DFCACBE42C948ED600891351 /* Learn.hpp */,
 				DF3AB6812C9373BB0087FDF0 /* DataStructures */,
+				DFEAC93A2CAC2C63002B8E88 /* Searches */,
 				DF3AB6792C935D0A0087FDF0 /* Sorts */,
 			);
 			path = Learn;
@@ -213,6 +217,23 @@
 			path = Doubly;
 			sourceTree = "<group>";
 		};
+		DFEAC93A2CAC2C63002B8E88 /* Searches */ = {
+			isa = PBXGroup;
+			children = (
+				DFEAC93B2CAC2CC4002B8E88 /* LinearSearch */,
+			);
+			path = Searches;
+			sourceTree = "<group>";
+		};
+		DFEAC93B2CAC2CC4002B8E88 /* LinearSearch */ = {
+			isa = PBXGroup;
+			children = (
+				DFEAC93C2CAC2CE5002B8E88 /* LinearSearch.hpp */,
+				DFEAC93D2CAC2CE5002B8E88 /* LinearSearch.cpp */,
+			);
+			path = LinearSearch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEAC93E2CAC2CE5002B8E88 /* LinearSearch.cpp in Sources */,
 				DF3AB6852C93745B0087FDF0 /* Stack.cpp in Sources */,
 				DF308A712C92059B0087D743 /* ProductArrayPuzzle.cpp in Sources */,
 				DF3AB67E2C935D720087FDF0 /* MergeSort.cpp in Sources */,
