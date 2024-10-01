@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF08542D2CA28097001AB2E3 /* DynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF08542C2CA28097001AB2E3 /* DynamicArray.cpp */; };
 		DF308A712C92059B0087D743 /* ProductArrayPuzzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF308A702C92059B0087D743 /* ProductArrayPuzzle.cpp */; };
 		DF3AB6772C9356AE0087FDF0 /* RearrangingArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB6752C9356AE0087FDF0 /* RearrangingArray.cpp */; };
 		DF3AB67E2C935D720087FDF0 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB67C2C935D720087FDF0 /* MergeSort.cpp */; };
@@ -31,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF08542B2CA28097001AB2E3 /* DynamicArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DynamicArray.hpp; sourceTree = "<group>"; };
+		DF08542C2CA28097001AB2E3 /* DynamicArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
 		DF308A632C9200100087D743 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF308A702C92059B0087D743 /* ProductArrayPuzzle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProductArrayPuzzle.cpp; sourceTree = "<group>"; };
 		DF308A752C9210890087D743 /* ProductArrayPuzzle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ProductArrayPuzzle.hpp; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF08542A2CA28061001AB2E3 /* DynamicArray */ = {
+			isa = PBXGroup;
+			children = (
+				DF08542B2CA28097001AB2E3 /* DynamicArray.hpp */,
+				DF08542C2CA28097001AB2E3 /* DynamicArray.cpp */,
+			);
+			path = DynamicArray;
+			sourceTree = "<group>";
+		};
 		DF308A5A2C9200100087D743 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +151,7 @@
 		DF3AB6812C9373BB0087FDF0 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				DF08542A2CA28061001AB2E3 /* DynamicArray */,
 				DF3AB6822C9374050087FDF0 /* Stack */,
 				DF3AB6862C9382E20087FDF0 /* Queue */,
 				DFCACBE02C94886400891351 /* LinkedList */,
@@ -227,7 +240,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					DF308A622C9200100087D743 = {
 						CreatedOnToolsVersion = 15.4;
@@ -265,6 +278,7 @@
 				DF3AB6892C9383030087FDF0 /* Queue.cpp in Sources */,
 				DF3AB6802C93669B0087FDF0 /* main.cpp in Sources */,
 				DF3AB6772C9356AE0087FDF0 /* RearrangingArray.cpp in Sources */,
+				DF08542D2CA28097001AB2E3 /* DynamicArray.cpp in Sources */,
 				DFCACBE92C94B2DD00891351 /* DoublyLinkedList.cpp in Sources */,
 				DFCACBE32C94887D00891351 /* SinglyLinkedList.cpp in Sources */,
 			);
@@ -307,6 +321,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -368,6 +383,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -393,6 +409,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
@@ -404,6 +421,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.0;
 			};

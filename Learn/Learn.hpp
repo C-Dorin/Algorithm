@@ -13,6 +13,7 @@
 #include "Queue.hpp"
 #include "SinglyLinkedList.hpp"
 #include "DoublyLinkedList.hpp"
+#include "DynamicArray.hpp"
 
 // Sorts
 #include "MergeSort.hpp"
