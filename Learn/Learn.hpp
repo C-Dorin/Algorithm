@@ -17,6 +17,7 @@
 
 // Searches
 #include "LinearSearch.hpp"
+#include "BinarySearch.hpp"
 
 // Sorts
 #include "MergeSort.hpp"

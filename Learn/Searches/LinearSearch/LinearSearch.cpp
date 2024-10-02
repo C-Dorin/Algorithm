@@ -19,7 +19,7 @@
 //
 
 #include "LinearSearch.hpp"
-#include "iostream"
+#include <iostream>
 
 using namespace std;
 
@@ -36,8 +36,13 @@ int linearSearch(int array[], int size, int value){
 void displayLinearSearch(){
 	int array[] = {1, 6, 2, 4, 3, 8, 5, 9, 7};
 	int size = sizeof(array) / sizeof(array[0]);
+	int value = 10;
 
-	int index = linearSearch(array, size, 5);
+	int index = linearSearch(array, size, value);
 
-	cout << "The index: " << index << endl;
+	if (index != -1) {
+		cout << "The index: " << index << endl;
+	} else {
+		cout << "The value " << value <<" isn't in array" << endl;
+	}
 }
