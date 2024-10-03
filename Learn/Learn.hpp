@@ -21,6 +21,7 @@
 #include "InterpolationSearch.hpp"
 
 // Sorts
+#include "BubbleSort.hpp"
 #include "MergeSort.hpp"
 
 #endif /* Learn_hpp */
