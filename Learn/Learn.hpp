@@ -22,6 +22,7 @@
 
 // Sorts
 #include "BubbleSort.hpp"
+#include "SelectionSort.hpp"
 #include "MergeSort.hpp"
 
 #endif /* Learn_hpp */
