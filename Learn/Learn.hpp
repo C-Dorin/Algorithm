@@ -25,5 +25,6 @@
 #include "SelectionSort.hpp"
 #include "InsertionSort.hpp"
 #include "MergeSort.hpp"
+#include "QuickSort.hpp"
 
 #endif /* Learn_hpp */

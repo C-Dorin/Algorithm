@@ -23,6 +23,7 @@
 		DFEAC94B2CAE1B22002B8E88 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEAC94A2CAE1B22002B8E88 /* BubbleSort.cpp */; };
 		DFEAC94F2CAE21CA002B8E88 /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEAC94E2CAE21CA002B8E88 /* SelectionSort.cpp */; };
 		DFEAC9532CAE271E002B8E88 /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEAC9522CAE271E002B8E88 /* InsertionSort.cpp */; };
+		DFEAC9572CAE34A9002B8E88 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEAC9562CAE34A9002B8E88 /* QuickSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,8 @@
 		DFEAC94E2CAE21CA002B8E88 /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
 		DFEAC9512CAE271E002B8E88 /* InsertionSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsertionSort.hpp; sourceTree = "<group>"; };
 		DFEAC9522CAE271E002B8E88 /* InsertionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
+		DFEAC9552CAE34A9002B8E88 /* QuickSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QuickSort.hpp; sourceTree = "<group>"; };
+		DFEAC9562CAE34A9002B8E88 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,7 @@
 				DFEAC94C2CAE21A5002B8E88 /* SelectionSort */,
 				DFEAC9502CAE2705002B8E88 /* InsertionSort */,
 				DF3AB67B2C935D510087FDF0 /* MergeSort */,
+				DFEAC9542CAE346A002B8E88 /* QuickSort */,
 			);
 			path = Sorts;
 			sourceTree = "<group>";
@@ -299,6 +303,15 @@
 			path = InsertionSort;
 			sourceTree = "<group>";
 		};
+		DFEAC9542CAE346A002B8E88 /* QuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				DFEAC9552CAE34A9002B8E88 /* QuickSort.hpp */,
+				DFEAC9562CAE34A9002B8E88 /* QuickSort.cpp */,
+			);
+			path = QuickSort;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,6 +380,7 @@
 				DF9428E02C99A96F00A017B6 /* romanToInteger.cpp in Sources */,
 				DF3AB6892C9383030087FDF0 /* Queue.cpp in Sources */,
 				DF3AB6802C93669B0087FDF0 /* main.cpp in Sources */,
+				DFEAC9572CAE34A9002B8E88 /* QuickSort.cpp in Sources */,
 				DF3AB6772C9356AE0087FDF0 /* RearrangingArray.cpp in Sources */,
 				DF08542D2CA28097001AB2E3 /* DynamicArray.cpp in Sources */,
 				DFCACBE92C94B2DD00891351 /* DoublyLinkedList.cpp in Sources */,
