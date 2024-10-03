@@ -19,6 +19,7 @@
 		DFCACBE92C94B2DD00891351 /* DoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFCACBE72C94B2DD00891351 /* DoublyLinkedList.cpp */; };
 		DFEAC93E2CAC2CE5002B8E88 /* LinearSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEAC93D2CAC2CE5002B8E88 /* LinearSearch.cpp */; };
 		DFEAC9422CAC5BD6002B8E88 /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEAC9412CAC5BD6002B8E88 /* BinarySearch.cpp */; };
+		DFEAC9472CAE0BDD002B8E88 /* InterpolationSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEAC9462CAE0BDD002B8E88 /* InterpolationSearch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,8 @@
 		DFEAC93D2CAC2CE5002B8E88 /* LinearSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearSearch.cpp; sourceTree = "<group>"; };
 		DFEAC9402CAC5BD6002B8E88 /* BinarySearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearch.hpp; sourceTree = "<group>"; };
 		DFEAC9412CAC5BD6002B8E88 /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
+		DFEAC9452CAE0BDD002B8E88 /* InterpolationSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InterpolationSearch.hpp; sourceTree = "<group>"; };
+		DFEAC9462CAE0BDD002B8E88 /* InterpolationSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterpolationSearch.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,10 +161,10 @@
 		DF3AB6812C9373BB0087FDF0 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				DF08542A2CA28061001AB2E3 /* DynamicArray */,
 				DF3AB6822C9374050087FDF0 /* Stack */,
 				DF3AB6862C9382E20087FDF0 /* Queue */,
 				DFCACBE02C94886400891351 /* LinkedList */,
+				DF08542A2CA28061001AB2E3 /* DynamicArray */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 		DFEAC93A2CAC2C63002B8E88 /* Searches */ = {
 			isa = PBXGroup;
 			children = (
+				DFEAC9432CAE0BA1002B8E88 /* InterpolationSearch */,
 				DFEAC93F2CAC5BB3002B8E88 /* BinarySearch */,
 				DFEAC93B2CAC2CC4002B8E88 /* LinearSearch */,
 			);
@@ -245,6 +249,15 @@
 				DFEAC9412CAC5BD6002B8E88 /* BinarySearch.cpp */,
 			);
 			path = BinarySearch;
+			sourceTree = "<group>";
+		};
+		DFEAC9432CAE0BA1002B8E88 /* InterpolationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				DFEAC9452CAE0BDD002B8E88 /* InterpolationSearch.hpp */,
+				DFEAC9462CAE0BDD002B8E88 /* InterpolationSearch.cpp */,
+			);
+			path = InterpolationSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +330,7 @@
 				DF08542D2CA28097001AB2E3 /* DynamicArray.cpp in Sources */,
 				DFCACBE92C94B2DD00891351 /* DoublyLinkedList.cpp in Sources */,
 				DFCACBE32C94887D00891351 /* SinglyLinkedList.cpp in Sources */,
+				DFEAC9472CAE0BDD002B8E88 /* InterpolationSearch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
