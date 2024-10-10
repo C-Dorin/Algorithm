@@ -27,4 +27,7 @@
 #include "MergeSort.hpp"
 #include "QuickSort.hpp"
 
+// Graphs
+#include "AdjacencyMatrix.hpp"
+
 #endif /* Learn_hpp */
