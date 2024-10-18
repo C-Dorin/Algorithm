@@ -9,10 +9,10 @@
 #define AdjacencyMatrix_hpp
 #include "vector"
 
-void addNode(std::vector<char>& nodes, char node);
-void addEdge(std::vector<std::vector<int>>& matrix, int source, int destination);
-bool checkEdge(std::vector<std::vector<int>>& matrix, int source, int destination);
-void printGraph(const std::vector<std::vector<int>>& matrix, const std::vector<char>& nodes, int size);
+void addNodeMatrix(std::vector<char>& nodes, char node);
+void addEdgeMatrix(std::vector<std::vector<int>>& matrix, int source, int destination);
+bool checkEdgeMatrix(std::vector<std::vector<int>>& matrix, int source, int destination);
+void printGraphMatrix(const std::vector<std::vector<int>>& matrix, const std::vector<char>& nodes, int size);
 void displayAdjacencyMatrix();
 
 #endif /* AdjacencyMatrix_hpp */

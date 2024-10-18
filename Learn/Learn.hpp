@@ -29,5 +29,6 @@
 
 // Graphs
 #include "AdjacencyMatrix.hpp"
+#include "AdjacencyLists.hpp"
 
 #endif /* Learn_hpp */

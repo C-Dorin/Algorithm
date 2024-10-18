@@ -62,6 +62,7 @@ void displayRomanToInteger(){
 		if (isalpha(c)) {
 			nrRoman.push_back(toupper(c));
 		}
+		
 	}
 
 	romanToInteger(nrRoman);
