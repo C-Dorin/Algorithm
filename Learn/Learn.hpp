@@ -31,4 +31,7 @@
 #include "AdjacencyMatrix.hpp"
 #include "AdjacencyLists.hpp"
 
+// Trees
+#include "DepthFirstSearch.hpp"
+
 #endif /* Learn_hpp */
