@@ -13,7 +13,7 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
 
-	displayDepthFirstSearch();
+	displayBreadthFirstSearch();
 //	Solutie6();
 	return 0;
 }

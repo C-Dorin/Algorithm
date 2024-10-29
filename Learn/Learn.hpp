@@ -33,5 +33,6 @@
 
 // Trees
 #include "DepthFirstSearch.hpp"
+#include "BreadthFirstSearch.hpp"
 
 #endif /* Learn_hpp */

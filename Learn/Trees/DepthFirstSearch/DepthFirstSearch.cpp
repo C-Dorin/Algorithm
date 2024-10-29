@@ -7,6 +7,11 @@
 
 //
 //	DFS = a search algorithm for traversing a tree or a graph data structure
+//		Traverse a graph branch by branch
+//		Utilizes a Stack
+//		Better if destination is on average far from the start
+//		Children are visited before siblings
+//		More popular for games/puzzles
 //
 
 #include "DepthFirstSearch.hpp"
