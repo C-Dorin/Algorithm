@@ -34,5 +34,6 @@
 // Trees
 #include "DepthFirstSearch.hpp"
 #include "BreadthFirstSearch.hpp"
+#include "BinarySearchTree.hpp"
 
 #endif /* Learn_hpp */

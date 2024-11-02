@@ -20,6 +20,7 @@
 		DF72F1252CB833BA00F0EE80 /* AdjacencyMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF72F1242CB833BA00F0EE80 /* AdjacencyMatrix.cpp */; };
 		DF9428E02C99A96F00A017B6 /* romanToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF9428DE2C99A96F00A017B6 /* romanToInteger.cpp */; };
 		DFB4F0CB2CD188CF009B4A99 /* BreadthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFB4F0CA2CD188CF009B4A99 /* BreadthFirstSearch.cpp */; };
+		DFB4F0CF2CD19523009B4A99 /* BinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFB4F0CE2CD19523009B4A99 /* BinarySearchTree.cpp */; };
 		DFBD54062CD120E6000DFA38 /* Solutie6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFBD54052CD120E6000DFA38 /* Solutie6.cpp */; };
 		DFC51CE62CB55F9000B74DA1 /* Solutie1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC51CE52CB55F9000B74DA1 /* Solutie1.cpp */; };
 		DFC51CEB2CB5612900B74DA1 /* Solutie2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC51CEA2CB5612900B74DA1 /* Solutie2.cpp */; };
@@ -75,6 +76,8 @@
 		DF9428DF2C99A96F00A017B6 /* romanToInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = romanToInteger.hpp; sourceTree = "<group>"; };
 		DFB4F0C92CD188CF009B4A99 /* BreadthFirstSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BreadthFirstSearch.hpp; sourceTree = "<group>"; };
 		DFB4F0CA2CD188CF009B4A99 /* BreadthFirstSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BreadthFirstSearch.cpp; sourceTree = "<group>"; };
+		DFB4F0CD2CD19523009B4A99 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
+		DFB4F0CE2CD19523009B4A99 /* BinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTree.cpp; sourceTree = "<group>"; };
 		DFBD54042CD120E6000DFA38 /* Solutie6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solutie6.hpp; sourceTree = "<group>"; };
 		DFBD54052CD120E6000DFA38 /* Solutie6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solutie6.cpp; sourceTree = "<group>"; };
 		DFC51CE02CB558DE00B74DA1 /* Solutie1in.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Solutie1in.txt; sourceTree = "<group>"; };
@@ -301,6 +304,15 @@
 			path = BreadthFirstSearch;
 			sourceTree = "<group>";
 		};
+		DFB4F0CC2CD194F7009B4A99 /* BinarySearchTree */ = {
+			isa = PBXGroup;
+			children = (
+				DFB4F0CD2CD19523009B4A99 /* BinarySearchTree.hpp */,
+				DFB4F0CE2CD19523009B4A99 /* BinarySearchTree.cpp */,
+			);
+			path = BinarySearchTree;
+			sourceTree = "<group>";
+		};
 		DFBD54032CD120A7000DFA38 /* Solutie6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +475,7 @@
 		DFED59752CC2BB4200796A2A /* Trees */ = {
 			isa = PBXGroup;
 			children = (
+				DFB4F0CC2CD194F7009B4A99 /* BinarySearchTree */,
 				DFB4F0C82CD1889B009B4A99 /* BreadthFirstSearch */,
 				DFED59762CC2BC3100796A2A /* DepthFirstSearch */,
 			);
@@ -536,6 +549,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB4F0CF2CD19523009B4A99 /* BinarySearchTree.cpp in Sources */,
 				DFED59792CC2BC5500796A2A /* DepthFirstSearch.cpp in Sources */,
 				DFEAC94F2CAE21CA002B8E88 /* SelectionSort.cpp in Sources */,
 				DFEAC93E2CAC2CE5002B8E88 /* LinearSearch.cpp in Sources */,
