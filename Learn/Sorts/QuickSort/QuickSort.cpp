@@ -28,22 +28,18 @@ int partition(vector<int>& array, int start, unsigned long end){
 	for (int j = start; j <= end; j++) {
 		if (array[j] < pivot) {
 			i++;
-			int temp = array[i];
-			array[i] = array[j];
-			array[j] = temp;
+			swap(array[i], array[j]);
 		}
 	}
 
 	i++;
-	int temp = array[i];
-	array[i] = array[end];
-	array[end] = temp;
+	swap(array[i], array[end]);
 
 	return i;
 }
 
 void quickSort(vector<int>& array, int start, unsigned long end){
-	if (end <= start) return;
+	if (start >= end) return;
 
 	int pivot = partition(array, start, end);
 	quickSort(array, start, pivot - 1);
