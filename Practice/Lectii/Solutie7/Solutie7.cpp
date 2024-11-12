@@ -18,7 +18,6 @@ void Solutie7(){
 
 	sort(s1.begin(), s1.end());
 	sort(s2.begin(), s2.end());
-	unsigned long length = max(s1.size(), s2.size());
 
 	unsigned long s1Length = s1.length();
 	unsigned long s2Length = s2.length();

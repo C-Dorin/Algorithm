@@ -18,6 +18,7 @@
 		DF3AB6892C9383030087FDF0 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3AB6872C9383030087FDF0 /* Queue.cpp */; };
 		DF522E442CBE91B500022B8B /* Solutie4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF522E432CBE91B500022B8B /* Solutie4.cpp */; };
 		DF56A0C62CE33FD900AD0E15 /* Solutie8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF56A0C52CE33FD900AD0E15 /* Solutie8.cpp */; };
+		DF6B61EB2CE392D800DA6130 /* Manacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF6B61EA2CE392D800DA6130 /* Manacher.cpp */; };
 		DF72F1252CB833BA00F0EE80 /* AdjacencyMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF72F1242CB833BA00F0EE80 /* AdjacencyMatrix.cpp */; };
 		DF843FAE2CE124CE005CCBB6 /* Solutie7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF843FAD2CE124CE005CCBB6 /* Solutie7.cpp */; };
 		DF9428E02C99A96F00A017B6 /* romanToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF9428DE2C99A96F00A017B6 /* romanToInteger.cpp */; };
@@ -74,6 +75,8 @@
 		DF522E432CBE91B500022B8B /* Solutie4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solutie4.cpp; sourceTree = "<group>"; };
 		DF56A0C42CE33FD900AD0E15 /* Solutie8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solutie8.hpp; sourceTree = "<group>"; };
 		DF56A0C52CE33FD900AD0E15 /* Solutie8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Solutie8.cpp; sourceTree = "<group>"; };
+		DF6B61E92CE392D800DA6130 /* Manacher.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Manacher.hpp; sourceTree = "<group>"; };
+		DF6B61EA2CE392D800DA6130 /* Manacher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Manacher.cpp; sourceTree = "<group>"; };
 		DF72F1232CB833BA00F0EE80 /* AdjacencyMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AdjacencyMatrix.hpp; sourceTree = "<group>"; };
 		DF72F1242CB833BA00F0EE80 /* AdjacencyMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AdjacencyMatrix.cpp; sourceTree = "<group>"; };
 		DF843FAC2CE124CE005CCBB6 /* Solutie7.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Solutie7.hpp; sourceTree = "<group>"; };
@@ -279,6 +282,8 @@
 			children = (
 				DF56A0C42CE33FD900AD0E15 /* Solutie8.hpp */,
 				DF56A0C52CE33FD900AD0E15 /* Solutie8.cpp */,
+				DF6B61E92CE392D800DA6130 /* Manacher.hpp */,
+				DF6B61EA2CE392D800DA6130 /* Manacher.cpp */,
 			);
 			path = Solutie8;
 			sourceTree = "<group>";
@@ -586,6 +591,7 @@
 				DFBD54062CD120E6000DFA38 /* Solutie6.cpp in Sources */,
 				DF3AB67E2C935D720087FDF0 /* MergeSort.cpp in Sources */,
 				DFEAC9532CAE271E002B8E88 /* InsertionSort.cpp in Sources */,
+				DF6B61EB2CE392D800DA6130 /* Manacher.cpp in Sources */,
 				DFEAC9422CAC5BD6002B8E88 /* BinarySearch.cpp in Sources */,
 				DF9428E02C99A96F00A017B6 /* romanToInteger.cpp in Sources */,
 				DF3AB6892C9383030087FDF0 /* Queue.cpp in Sources */,
