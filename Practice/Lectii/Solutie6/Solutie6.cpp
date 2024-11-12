@@ -32,7 +32,7 @@ void Solutie6(){
 		}
 
 		quickSort(ascii, 0, ascii.size() - 1);
-
+		sort(ascii.begin(), ascii.end());
 		string sorted_word;
 		for (int letter : ascii) {
 			sorted_word += (char)(letter);
